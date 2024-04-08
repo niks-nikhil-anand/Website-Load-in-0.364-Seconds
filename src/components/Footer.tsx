@@ -6,7 +6,7 @@ const Footer = () => {
       <p>Copyright © 2023 JS Mastery Pro | All Rights Reserved</p>
 
       <div className="flex gap-x-9">
-        <Link href="/terms-of-use">Terms & Conditions</Link>
+        <Link href="/termsAndCondition">Terms & Conditions</Link>
         <Link href="/privacy-policy">Privacy Policy</Link>
       </div>
     </footer>
