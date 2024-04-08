@@ -1,10 +1,16 @@
-import Hero from "@/components/Hero";
+import AboutMe from '@/components/AboutMe'
+import Hero from '@/components/Hero'
+import RecentWorks from '@/components/RecentWorks'
+import React from 'react'
 
-
-export default function Home() {
+const page = () => {
   return (
-   <>
-   <Hero/>
-   </>
-  );
+    <div>
+      <Hero/>
+      <AboutMe/>
+      <RecentWorks/>
+    </div>
+  )
 }
+
+export default page

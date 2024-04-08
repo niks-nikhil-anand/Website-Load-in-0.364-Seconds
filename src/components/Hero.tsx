@@ -9,7 +9,7 @@ import Button from "./ChatNow";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between px-9 xs:px-8 sm:px-16 mb-[30vh] mt-[20vh] hero-height">
+    <div className="flex justify-between px-9 xs:px-8 sm:px-16  mt-[20vh] ">
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-4">
           <h3 className="text-white heading1 text-gradient_blue-purple !font-bold "> 
