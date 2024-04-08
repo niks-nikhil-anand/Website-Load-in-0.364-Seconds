@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className='flex justify-center flex-col px-9 xs:px-8 sm:px-16 mt-9 items-center '>
+    <div className='flex justify-center flex-col px-9 xs:px-8 sm:px-16 mt-9 items-center mb-10'>
         <div className='base-bold mb-5'>
             <h3 className='text-gradient underline'>About Me</h3>
         </div>
@@ -11,7 +11,7 @@ const AboutMe = () => {
 
            
         <span className=" text-white  text-gradient">I'm Nikhil Anand,  </span>  a dedicated full-time freelancer based in India . With years of experience, I've assisted numerous {' '}
-        <span className=" text-white  text-gradient leading-normal ">
+        <span className=" text-white  base-bold text-gradient leading-normal  ">
          startUp business and entrepreneurs 
         </span>{' '}
         in establishing a <span className='text-white  base-bold text-gradient leading-normal'> strong online presence </span>through high-quality website development and effective online marketing strategies.{' '}
