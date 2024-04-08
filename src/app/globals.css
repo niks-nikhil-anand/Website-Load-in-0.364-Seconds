@@ -24,6 +24,13 @@
     background-clip: text;
     text-fill-color: transparent;
   }
+  .text-gradient2 {
+    background: linear-gradient(90deg, #ff7170 -50.34%, #ffe57f 100.78%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
 
   .heading1 {
     @apply text-[64px] leading-[67.2px] font-bold;
@@ -42,7 +49,7 @@
   }
 
   .base-bold {
-    @apply text-[24px] font-semibold leading-[31.2px];
+    @apply text-[24px] font-semibold leading-[31.2px] text-[#d0dfff];
   }
 
   .paragraph-regular {
@@ -133,6 +140,11 @@
 .frame {
   border-style: inset;
   border: 2px solid #40a0ff;
+  position: relative;
+}
+.frame1 {
+  border-style: inset;
+  border: 3px solid #40a0ff;
   position: relative;
 }
 

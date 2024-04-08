@@ -20,7 +20,7 @@ export const Card: React.FC<CardThreeProps> = ({
   imgURL,
 }) => {
   return (
-    <div className="w-[300px] rounded-md frame">
+    <div className="w-[300px] rounded-tr-[4rem] frame overflow-hidden ">
       <Image
         src={imgURL}
         alt="Laptop"
@@ -30,7 +30,7 @@ export const Card: React.FC<CardThreeProps> = ({
         <h1 className="inline-flex items-center text-lg font-semibold text-gradient">
           {title} &nbsp; <ArrowUpRight className="h-4 w-4" />
         </h1>
-        <p className="mt-3 text-sm paragraph-regular text-white">
+        <p className="mt-3 text-sm body-regular text-white">
           {description}
         </p>
         <div className="mt-4">

@@ -6,9 +6,9 @@ const AboutMe = () => {
       <div className='base-bold mb-5'>
         <h3 className='text-gradient underline'>About Me</h3>
       </div>
-      <div>
-        <h2 className='text-white heading3 mb-2'>
-          <span className="text-white text-gradient">
+      <div className='flex justify-center items-center text-center'>
+        <h2 className='text-white paragraph-regular mb-2 '>
+          <span className="text-white base-bold text-gradient2 leading-normal  ">
             I&apos;m Nikhil Anand,
           </span>{' '}
           a dedicated full-time freelancer based in India. With years of experience, I&apos;ve assisted numerous{' '}
