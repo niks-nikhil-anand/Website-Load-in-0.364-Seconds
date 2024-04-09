@@ -22,7 +22,7 @@ const Hero = () => {
           <h2 className="text-white base-bold text-gradient_blue-purple !font-bold">
             Unlimited Revision + Scalable
           </h2>
-          <h2 class="text-gradient2 base-bold text-white ">
+          <h2 className="text-gradient2 base-bold text-white ">
             More optimized & (&gt;500ms Loading Time)
           </h2>
         </div>

@@ -808,6 +808,27 @@ video {
 .mt-\[3rem\]{
   margin-top: 3rem;
 }
+.mb-8{
+  margin-bottom: 2rem;
+}
+.mb-\[\]{
+  margin-bottom: ;
+}
+.mb-\[10px\]{
+  margin-bottom: 10px;
+}
+.mb-\[20px\]{
+  margin-bottom: 20px;
+}
+.mb-\[30px\]{
+  margin-bottom: 30px;
+}
+.mb-7{
+  margin-bottom: 1.75rem;
+}
+.mt-6{
+  margin-top: 1.5rem;
+}
 .block{
   display: block;
 }
@@ -857,6 +878,21 @@ video {
 .w-full{
   width: 100%;
 }
+.w-10{
+  width: 2.5rem;
+}
+.w-\[\]{
+  width: ;
+}
+.w-\[5rem\]{
+  width: 5rem;
+}
+.w-\[15rem\]{
+  width: 15rem;
+}
+.w-\[17rem\]{
+  width: 17rem;
+}
 .max-w-2xl{
   max-width: 42rem;
 }
@@ -889,6 +925,27 @@ video {
 }
 .gap-\[60px\]{
   gap: 60px;
+}
+.gap-5{
+  gap: 1.25rem;
+}
+.gap-\[\]{
+  gap: ;
+}
+.gap-\[20rem\]{
+  gap: 20rem;
+}
+.gap-\[10rem\]{
+  gap: 10rem;
+}
+.gap-\[8rem\]{
+  gap: 8rem;
+}
+.gap-\[rem\]{
+  gap: rem;
+}
+.gap-\[6rem\]{
+  gap: 6rem;
 }
 .gap-x-3{
   -moz-column-gap: 0.75rem;
@@ -926,6 +983,15 @@ video {
 .rounded-tr-\[5rem\]{
   border-top-right-radius: 5rem;
 }
+.rounded-tr-xl{
+  border-top-right-radius: 0.75rem;
+}
+.rounded-tr-\[\]{
+  border-top-right-radius: ;
+}
+.rounded-tr-\[3rem\]{
+  border-top-right-radius: 3rem;
+}
 .border{
   border-width: 1px;
 }
@@ -959,6 +1025,17 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-\[\]{
+  background-color: ;
+}
+.bg-\[\#B8BFC6\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(184 191 198 / var(--tw-bg-opacity));
+}
+.bg-\[\#1E293B\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -984,6 +1061,21 @@ video {
 }
 .p-4{
   padding: 1rem;
+}
+.p-5{
+  padding: 1.25rem;
+}
+.p-1{
+  padding: 0.25rem;
+}
+.p-\[\]{
+  padding: ;
+}
+.p-\[10\]{
+  padding: 10;
+}
+.p-\[10px\]{
+  padding: 10px;
 }
 .px-10{
   padding-left: 2.5rem;
@@ -1072,6 +1164,9 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-\[28px\]{
+  font-size: 28px;
+}
 .\!font-bold{
   font-weight: 700 !important;
 }
@@ -1086,6 +1181,12 @@ video {
 }
 .leading-normal{
   line-height: 1.5;
+}
+.leading-\[40px\]{
+  line-height: 40px;
+}
+.tracking-\[-0\.25\%\]{
+  letter-spacing: -0.25%;
 }
 .text-black{
   --tw-text-opacity: 1;
@@ -1374,6 +1475,14 @@ video {
   .sm\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .sm\:text-\[32px\]{
+    font-size: 32px;
+  }
+
+  .sm\:leading-\[33\.6px\]{
+    line-height: 33.6px;
   }
 }
 @media (min-width: 768px){

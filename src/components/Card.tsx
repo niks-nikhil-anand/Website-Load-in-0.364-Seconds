@@ -20,7 +20,7 @@ export const Card: React.FC<CardThreeProps> = ({
   imgURL,
 }) => {
   return (
-    <div className="w-[300px] rounded-tr-[4rem] frame overflow-hidden ">
+    <div className="w-[300px] rounded-tr-[4rem] frame overflow-hidden  bg-[#1E293B]">
       <Image
         src={imgURL}
         alt="Laptop"

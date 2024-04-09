@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import phone from '../../public/phone.png'
 import { useState, FormEvent } from "react";
 
 const RequestCallback: React.FC = () => {
@@ -13,9 +15,13 @@ const RequestCallback: React.FC = () => {
   };
 
   return (
-    <div className="request-callback-container frame h-[200px] bg-gradient-to-r from-red-500 to-yellow-500 mx-10 rounded-tr-[5rem] px-10 mb-10 ">
+    <div className="request-callback-container frame h-[200px] bg-gradient-to-r from-red-500 to-yellow-500 mx-10 rounded-tr-[5rem] px-10 mb-10 flex justify-between items-center">
+
+      <div>
+        <Image src={phone} alt="phone" height={200}/>
+      </div>
       {submitted ? (
-        <p>Thank you for your request. We will contact you soon!</p>
+        <h1 className="heading3">Thank you for your request. We will contact you soon!</h1>
       ) : (
         <div className="flex justify-between flex-col">
           <div>
