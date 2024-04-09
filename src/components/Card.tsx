@@ -8,7 +8,9 @@ interface CardThreeProps {
   tag1: string;
   tag2: string;
   tag3: string;
-  imgURL: string;
+  tag4?: string;
+  tag5?: string;
+  imgURL: any;
 }
 
 export const Card: React.FC<CardThreeProps> = ({
@@ -17,6 +19,8 @@ export const Card: React.FC<CardThreeProps> = ({
   tag1,
   tag2,
   tag3,
+  tag4,
+  tag5,
   imgURL,
 }) => {
   return (
@@ -42,6 +46,12 @@ export const Card: React.FC<CardThreeProps> = ({
           </span>
           <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[10px] font-semibold text-gray-900">
             {tag3}
+          </span>
+          <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[10px] font-semibold text-gray-900">
+            {tag4}
+          </span>
+          <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[10px] font-semibold text-gray-900">
+            {tag5}
           </span>
         </div>
       </div>

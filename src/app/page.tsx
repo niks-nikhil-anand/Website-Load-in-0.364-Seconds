@@ -4,7 +4,7 @@ import RecentWorks from '@/components/RecentWorks'
 import RequestCallback from '@/components/RequestCallback'
 import WhatWeCan from '@/components/WhatWeCan'
 import WhyChooseUs from '@/components/WhyChooseUs'
-import IconSection from '@/components/iconSection'
+import IconSection from '@/components/IconSection'
 import React from 'react'
 
 const page = () => {

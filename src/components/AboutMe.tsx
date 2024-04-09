@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <div className='flex justify-center flex-col px-9 xs:px-8 sm:px-16 mt-9 items-center mb-10'>
+    <div className='flex justify-center flex-col px-9 xs:px-8 sm:px-16 mt-9 items-center mb-10 bg-[#1E293B] p-10  pt-15 overflow-hidden rounded-[2rem]'>
       <div className='base-bold mb-5'>
         <h3 className='text-gradient underline'>About Me</h3>
       </div>

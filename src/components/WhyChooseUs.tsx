@@ -4,7 +4,7 @@ import banner1 from '../../public/pro.png'
 
 const WhyChooseUs = () => {
   return (
-    <div className="flex px-[3rem] xs:px-8 sm:px-16 mt-[3rem] items-center mb-10 justify-between ">
+    <div className="flex px-[3rem] xs:px-8 sm:px-16 mt-[3rem] items-center mb-10 justify-between bg-[#1E293B] p-10 overflow-hidden rounded-[2rem] ">
       <div className="w-[30rem] pl-[3rem]">
         <h3 className=" heading3 text-gradient2 ">Why Choose Us?</h3>
         <h2 className="text-white mt-3 paragraph-regular text-gradient_blue-purple !font-bold"> Choose Dream Dictation For Explore World </h2>
