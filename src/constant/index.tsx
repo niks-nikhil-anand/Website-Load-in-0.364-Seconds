@@ -53,3 +53,30 @@ export const Projects = [
       tag5:'NodeJs'
   },
 ];
+
+export const WhatWeCan = [
+  {
+    index: 0,
+    heading : "Seamless User Experience",
+    description : "We prioritize performance, ensuring that all websites we develop load in less than 500ms. This commitment to speed translates into a seamless and enjoyable user experience.",
+    footerText: "Lightning-Fast Loading Times"
+  },
+  {
+    index: 1,
+    heading : "Seamless User Experience",
+    description : "We prioritize performance, ensuring that all websites we develop load in less than 500ms. This commitment to speed translates into a seamless and enjoyable user experience.",
+    footerText: "Lightning-Fast Loading Times"
+  },
+  {
+    index: 2,
+    heading : "Seamless User Experience",
+    description : "We prioritize performance, ensuring that all websites we develop load in less than 500ms. This commitment to speed translates into a seamless and enjoyable user experience.",
+    footerText: "Lightning-Fast Loading Times"
+  },
+  {
+    index: 3,
+    heading : "Seamless User Experience",
+    description : "We prioritize performance, ensuring that all websites we develop load in less than 500ms. This commitment to speed translates into a seamless and enjoyable user experience.",
+    footerText: "Lightning-Fast Loading Times"
+  },
+]
