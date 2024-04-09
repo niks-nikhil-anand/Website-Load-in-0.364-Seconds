@@ -1,12 +1,20 @@
-import Image from 'next/image'
-import React from 'react'
-import icon1 from '../../public/icon01.png'
+
+import StackIcon from 'tech-stack-icons'
 
 const IconCard = () => {
   return (
     <div>
-        <div className=''>
-            <Image src={icon1} alt='icon1' height={80} />
+        <div className='flex gap-10'>
+            
+            <StackIcon name="js" />
+            <StackIcon name="typescript" />
+            <StackIcon name="reactjs" />
+            <StackIcon name="nextjs2" />
+            <StackIcon name="mongodb" />
+            <StackIcon name="nodejs" />
+            <StackIcon name="vitejs" />
+            <StackIcon name="tailwindcss" />
+            <StackIcon name="css3" />
         </div>
     </div>
   )

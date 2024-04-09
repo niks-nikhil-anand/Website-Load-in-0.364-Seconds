@@ -20,7 +20,8 @@
     "react-dom": "^18",
     "sharp": "^0.33.3",
     "tailwind-merge": "^2.2.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tech-stack-icons": "^2.0.3"
   },
   "devDependencies": {
     "@types/node": "^20",
