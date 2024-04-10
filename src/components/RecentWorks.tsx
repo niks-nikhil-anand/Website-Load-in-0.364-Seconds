@@ -4,14 +4,14 @@ import {Projects} from '../constant/index';
 
 const RecentWorks = () => {
   return (
-    <div className='flex  justify-center items-center flex-col'>
+    <div className='flex  justify-center items-center flex-col p-10 '>
       <div className=' mb-5 flex justify-center items-center flex-col'>
         <h3 className='text-gradient base-bold underline'>Our recent Projects</h3>
         <p className="text-white">
         We have undertaken diverse projects, and a few notable ones are listed below
         </p>
       </div>
-      <div className='flex gap-8'>
+      <div className='flex gap-8  flex-col md:flex-row 	'>
         {Projects.map((item, index) => (
           <Card
             key={index}

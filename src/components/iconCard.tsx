@@ -4,7 +4,7 @@ import StackIcon from 'tech-stack-icons'
 const IconCard = () => {
   return (
     <div>
-        <div className='flex gap-10'>
+        <div className='flex gap-5 flex-wrap md:flex-10'>
             
             <StackIcon name="js" />
             <StackIcon name="typescript" />

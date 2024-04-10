@@ -40,14 +40,14 @@ const WhatWeCan = () => {
   ]
 
   return (
-    <div className="flex justify-center items-center flex-col mb-5">
-      <div className="mb-5 flex justify-center flex-col items-center">
+    <div className="flex justify-center items-center flex-col mb-5 p-10 ">
+      <div className="mb-5 flex justify-center flex-col items-center ">
         <h3 className="text-gradient base-bold underline">What Makes Us Different?</h3>
         <p className="text-white">
           We possess numerous differentiating factors that set us apart from other website developers. Some of these are listed below
         </p>
       </div>
-      <div className="flex justify-between items-center gap-[6rem]">
+      <div className="flex justify-between items-center gap-[10px] flex-col md:flex-row">
         {data.map((item, index) => (
           <WeCanCard 
             key={index}

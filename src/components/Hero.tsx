@@ -3,30 +3,31 @@ import React from "react";
 import heroImage from "../../public/hero.jpg";
 import Link from "next/link";
 import whatsapp from "../../public/chat.png";
-import Button from "./ChatNow";
+
 
 const Hero = () => {
   return (
-    <div className="flex justify-between px-9 xs:px-8 sm:px-16  mt-[20vh] ">
-      <div className="flex flex-col gap-10">
+   <div className="flex justify-between px-9 xs:px-8 sm:px-16 mt-[15vh] flex-col md:flex-row ">
+
+      <div className="flex flex-col gap-10 ">
         <div className="flex flex-col gap-4">
-          <h3 className="text-white heading1 text-gradient2 !font-bold ">
+          <h3 className="text-white text-[3rem] lg:heading3 text-gradient2 !font-bold ">
             Nikhil Anand
           </h3>
-          <h3 className="text-white base-bold">
+          <h3 className="text-white text-[1rem] base-bold">
             eCommerce Website + Admin Panel
           </h3>
-          <h2 className="text-white base-bold">
+          <h2 className="text-white text-[1rem] base-bold">
             Custom Website - Business Website
           </h2>
-          <h2 className="text-white base-bold text-gradient_blue-purple !font-bold">
+          <h2 className="text-white text-[1rem] base-bold text-gradient_blue-purple !font-bold">
             Unlimited Revision + Scalable
           </h2>
-          <h2 className=" base-bold text-white ">
+          <h2 className=" text-white text-[1rem] base-bold ">
             More optimized & (&gt;500ms Loading Time)
           </h2>
         </div>
-        <div className="flex gap-[60px]">
+        <div className="flex gap-[60px] mb-10">
           <div>
             <Link
               href={"https://wa.link/8izq0g"}

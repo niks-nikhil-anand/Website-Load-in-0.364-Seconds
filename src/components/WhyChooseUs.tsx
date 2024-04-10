@@ -4,9 +4,9 @@ import banner1 from '../../public/pro.png'
 
 const WhyChooseUs = () => {
   return (
-    <div className="flex px-[3rem] xs:px-8 sm:px-16 mt-[3rem] items-center mb-10 justify-between bg-[#1E293B] p-10 overflow-hidden rounded-[2rem] ">
-      <div className="w-[30rem] pl-[3rem]">
-        <h3 className=" heading2 text-gradient2 ">Why Choose Us?</h3>
+    <div className="flex px-[3rem] xs:px-8 sm:px-16 mt-[3rem] items-center mb-10 justify-between bg-[#1E293B]  overflow-hidden rounded-[2rem] flex-col md:flex-row p-10 ">
+      <div className="">
+        <h3 className=" lg:heading2 text-[2rem] base-bold text-gradient2 ">Why Choose Us? </h3>
         <h2 className="text-white mt-3 paragraph-regular text-gradient_blue-purple !font-bold"> Lightning-Fast Loading Times </h2>
         <p className="body-regular text-white  mt-2"  >Our dedication to performance means that all websites we develop load in less than 500ms, ensuring a seamless user experience.</p>
         <h2 className="text-white mt-[3rem] paragraph-regular text-gradient_blue-purple !font-bold "> Expertise in Industry-Leading Projects </h2>
