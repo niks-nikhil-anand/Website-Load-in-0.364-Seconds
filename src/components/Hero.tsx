@@ -11,16 +11,16 @@ const Hero = () => {
 
       <div className="flex flex-col gap-10 ">
         <div className="flex flex-col gap-4">
-          <h3 className="text-white text-[3rem] lg:heading3 text-gradient2 !font-bold ">
+          <h3 className="text-white text-[2rem] lg:heading3 text-gradient2 !font-bold ">
             Nikhil Anand
           </h3>
-          <h3 className="text-white text-[1rem] base-bold">
+          <h3 className="text-white  base-bold">
             eCommerce Website + Admin Panel
           </h3>
-          <h2 className="text-white text-[1rem] base-bold">
+          <h2 className="text-white  base-bold">
             Custom Website - Business Website
           </h2>
-          <h2 className="text-white text-[1rem] base-bold text-gradient_blue-purple !font-bold">
+          <h2 className="text-white  base-bold text-gradient_blue-purple !font-bold">
             Unlimited Revision + Scalable
           </h2>
           <h2 className=" text-white text-[1rem] base-bold ">
