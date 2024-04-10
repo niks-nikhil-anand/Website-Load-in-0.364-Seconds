@@ -49,7 +49,7 @@
   }
 
   .base-bold {
-    @apply text-[24px] font-semibold leading-[31.2px] text-[#d0dfff];
+    @apply text-[18px] font-semibold leading-[31.2px] text-[#d0dfff];
   }
 
   .paragraph-regular {

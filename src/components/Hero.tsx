@@ -23,7 +23,7 @@ const Hero = () => {
           <h2 className="text-white  base-bold text-gradient_blue-purple !font-bold">
             Unlimited Revision + Scalable
           </h2>
-          <h2 className=" text-white text-[1rem] base-bold ">
+          <h2 className=" text-white base-bold ">
             More optimized & (&gt;500ms Loading Time)
           </h2>
         </div>
@@ -35,7 +35,7 @@ const Hero = () => {
               className="flex"
             >
               <Image src={whatsapp} alt="whatsapp" width={280} />
-              Chat Now
+              
             </Link>
           </div>
         </div>

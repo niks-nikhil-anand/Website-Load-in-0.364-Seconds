@@ -15,13 +15,12 @@ const RequestCallback: React.FC = () => {
   };
 
   return (
-    <div className="request-callback-container frame h-[700px] bg-gradient-to-r from-red-500 to-yellow-500 mx-7 rounded-tr-[5rem]   flex justify-between items-center flex-col md:flex-row ">
-
+    <div className={`request-callback-container frame ${submitted ? "h-[300px] " : "h-[700px]"} bg-gradient-to-r from-red-500 to-yellow-500 mx-7 rounded-tr-[5rem]   flex justify-between items-center flex-col  mb-[2rem] md:flex-row  `}>
       <div className="">
         <Image src={phone} alt="phone" height={200}/>
       </div>
       {submitted ? (
-        <h1 className="heading3">Thank you for your request. We will contact you soon!</h1>
+        <h1 className="font-bold text-[20px] mx-[1rem] mb-[1rem]">Thank you for your request. We will contact you soon!</h1>
       ) : (
         <div className="flex justify-between flex-col">
           <div className="flex flex-col p-4">

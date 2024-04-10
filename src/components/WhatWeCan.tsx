@@ -41,7 +41,7 @@ const WhatWeCan = () => {
 
   return (
     <div className="flex justify-center items-center flex-col mb-5 p-10 ">
-      <div className="mb-5 flex justify-center flex-col items-center ">
+      <div className="mb-5 flex justify-center flex-col items-center text-center ">
         <h3 className="text-gradient base-bold underline">What Makes Us Different?</h3>
         <p className="text-white">
           We possess numerous differentiating factors that set us apart from other website developers. Some of these are listed below
