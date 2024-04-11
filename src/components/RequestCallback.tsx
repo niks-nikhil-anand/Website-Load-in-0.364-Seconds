@@ -15,12 +15,12 @@ const RequestCallback: React.FC = () => {
   };
 
   return (
-    <div className={`request-callback-container frame ${submitted ? "h-[300px] " : "h-[700px]"} bg-gradient-to-r from-red-500 to-yellow-500 mx-7 rounded-tr-[5rem]   flex justify-between items-center flex-col  mb-[2rem] md:flex-row  `}>
-      <div className="">
+    <div className={`request-callback-container frame ${submitted ? "h-[300px] " : "h-[700px]"}  ${submitted ? "md:h-[300px] " : "md:h-[300px]"}  bg-gradient-to-r from-red-500 to-yellow-500 mx-7 rounded-tr-[5rem]   flex justify-between items-center flex-col  mb-[2rem] md:flex-row  `}>
+      <div className="lg:ml-[5rem]">
         <Image src={phone} alt="phone" height={200}/>
       </div>
       {submitted ? (
-        <h1 className="font-bold text-[20px] mx-[1rem] mb-[1rem]">Thank you for your request. We will contact you soon!</h1>
+        <h1 className="font-bold text-[20px] mx-[1rem] mb-[1rem] md:text-[30px] md:mx-[1rem]">Thank you for your request. We will contact you soon!</h1>
       ) : (
         <div className="flex justify-between flex-col">
           <div className="flex flex-col p-4">
@@ -34,7 +34,7 @@ const RequestCallback: React.FC = () => {
             </p>
           </div>
           <div className=" ">
-            <form onSubmit={handleSubmit} className="form-container mt-10 flex justify-center items-center flex-col gap-5 mb-10 ">
+            <form onSubmit={handleSubmit} className="form-container mt-10 flex justify-center items-center flex-col gap-5 mb-10  md:flex-row md:justify-start">
               <input
                 type="text"
                 placeholder="Your Name"

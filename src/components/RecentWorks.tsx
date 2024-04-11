@@ -11,7 +11,7 @@ const RecentWorks = () => {
         We have undertaken diverse projects, and a few notable ones are listed below
         </p>
       </div>
-      <div className='flex gap-8  flex-col md:flex-row '>
+      <div className='flex gap-8 lg:gap-[4rem] flex-col md:flex-row '>
         {Projects.map((item, index) => (
           <Card
             key={index}

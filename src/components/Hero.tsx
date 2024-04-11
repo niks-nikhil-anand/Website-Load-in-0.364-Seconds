@@ -7,23 +7,23 @@ import whatsapp from "../../public/chat.png";
 
 const Hero = () => {
   return (
-   <div className="flex justify-between px-9 xs:px-8 sm:px-16 mt-[15vh] flex-col md:flex-row ">
+   <div className="flex justify-between px-9 xs:px-8 sm:px-16 mt-[15vh] flex-col md:flex-row  ">
 
       <div className="flex flex-col gap-10 ">
         <div className="flex flex-col gap-4">
-          <h3 className="text-white text-[2rem] lg:heading3 text-gradient2 !font-bold ">
+          <h3 className="text-white text-[2rem] md:text-[4rem] text-gradient2 !font-bold  ">
             Nikhil Anand
           </h3>
-          <h3 className="text-white  base-bold">
+          <h3 className="text-white  base-bold md:text-[30px]">
             eCommerce Website + Admin Panel
           </h3>
-          <h2 className="text-white  base-bold">
+          <h2 className="text-white  base-bold md:text-[30px]">
             Custom Website - Business Website
           </h2>
-          <h2 className="text-white  base-bold text-gradient_blue-purple !font-bold">
+          <h2 className="text-white  base-bold text-gradient_blue-purple !font-bold md:text-[30px]">
             Unlimited Revision + Scalable
           </h2>
-          <h2 className=" text-white base-bold ">
+          <h2 className=" text-white base-bold md:text-[30px] ">
             More optimized & (&gt;500ms Loading Time)
           </h2>
         </div>

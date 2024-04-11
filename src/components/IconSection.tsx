@@ -1,5 +1,5 @@
 import React from 'react'
-import IconCard from './Icons'
+import StackIcon from 'tech-stack-icons'
 
 const IconSection = () => {
   return (
@@ -10,8 +10,17 @@ const IconSection = () => {
       Utilizing the latest tech stack for projects that scale effortlessly and perform with lightning speed.
         </p>
     </div>
-    <div className='flex flex-col md:flex-row gap-10 mt-7  justify-center items-center text-center '>
-        <IconCard/>
+    <div className='flex flex-col md:flex-row   gap-10 mt-7 lg:gap-[4rem]  justify-center items-center text-center '>
+         
+    <StackIcon name="js" className=''/>
+            <StackIcon name="typescript" />
+            <StackIcon name="reactjs" />
+            <StackIcon name="nextjs2" />
+            <StackIcon name="mongodb" />
+            <StackIcon name="nodejs" />
+            <StackIcon name="vitejs" />
+            <StackIcon name="tailwindcss" />
+            <StackIcon name="css3" />
        
     </div>
     </div>
