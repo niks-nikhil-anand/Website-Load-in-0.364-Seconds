@@ -7,7 +7,7 @@ import whatsapp from "../../public/chat.png";
 
 const Hero = () => {
   return (
-   <div className="flex justify-between px-9 xs:px-8 sm:px-16 mt-[15vh] flex-col md:flex-row  ">
+   <div className="flex justify-between px-9 xs:px-8 sm:px-16 mt-[15vh] flex-col md:flex-row md:items-center md:w-[100%]">
 
       <div className="flex flex-col gap-10 ">
         <div className="flex flex-col gap-4">
