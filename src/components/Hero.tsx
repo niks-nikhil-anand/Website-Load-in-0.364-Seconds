@@ -26,6 +26,9 @@ const Hero = () => {
           <h2 className=" text-white base-bold md:text-[30px] ">
             More optimized & (&gt;500ms Loading Time)
           </h2>
+          <h2 className="text-white  base-bold text-gradient_blue-purple !font-bold md:text-[30px]">
+          Request  Free Consultation
+          </h2>
         </div>
         <div className="flex gap-[60px] mb-10">
           <div>
