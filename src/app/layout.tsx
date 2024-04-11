@@ -17,6 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+        <meta content="width=device-width, initial-scale=0" name="viewport" />
        <body className="min-h-screen bg-black-100 font-poppins">
         <Navbar/>
         {children}

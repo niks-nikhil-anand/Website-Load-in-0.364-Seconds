@@ -1,4 +1,4 @@
-// File: C:\Users\Niks\Desktop\seconds\src\app\privacyPolicy\page.tsx
+// File: C:\Users\Niks\Desktop\second\Website-Load-in-0.364-Seconds\src\app\privacyPolicy\page.tsx
 import * as entry from '../../../../src/app/privacyPolicy/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
