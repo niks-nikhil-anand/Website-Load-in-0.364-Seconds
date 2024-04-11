@@ -14,8 +14,8 @@ const page = () => {
       <AboutMe/>
       <RecentWorks/>
       <WhyChooseUs/>
-      <WhatWeCan/>
       <IconSection/>
+      <WhatWeCan/>
       <RequestCallback/>
     </div>
   )
