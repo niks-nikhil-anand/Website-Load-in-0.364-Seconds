@@ -47,7 +47,7 @@ const WhatWeCan = () => {
           We possess numerous differentiating factors that set us apart from other website developers. Some of these are listed below
         </p>
       </div>
-      <div className="flex justify-between items-center gap-[10px] lg:gap-[4rem] flex-col md:flex-row">
+      <div className="flex justify-around items-center gap-[10px] lg:gap-[2rem] flex-wrap flex-col md:flex-row">
         {data.map((item, index) => (
           <WeCanCard 
             key={index}

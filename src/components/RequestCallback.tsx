@@ -22,18 +22,7 @@ const RequestCallback = () => {
               inquiry.
             </p>
           </div>
-          <div className="flex gap-[60px] mb-10">
-          <div>
-            <Link
-              href={"https://wa.link/8izq0g"}
-              target="_blank"
-              className="flex"
-            >
-              <Image src={whatsapp} alt="whatsapp" width={280} />
-              
-            </Link>
-          </div>
-        </div>
+          
         </div>
       
     </div>

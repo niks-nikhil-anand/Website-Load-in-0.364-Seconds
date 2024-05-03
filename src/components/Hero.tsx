@@ -7,7 +7,7 @@ import whatsapp from "../../public/chat.png";
 
 const Hero = () => {
   return (
-   <div className="flex justify-between px-9 xs:px-8 sm:px-16 mt-[15vh] flex-col md:flex-row md:items-center md:w-[100%]">
+   <div className="flex pb-4 justify-between px-9 xs:px-8 sm:px-16 mt-[15vh] flex-col md:flex-row md:items-center md:w-[100%]">
 
       <div className="flex flex-col gap-10 ">
         <div className="flex flex-col gap-4">
@@ -30,18 +30,7 @@ const Hero = () => {
           Request  Free Consultation
           </h2>
         </div>
-        <div className="flex gap-[60px] mb-10">
-          <div>
-            <Link
-              href={"https://wa.link/8izq0g"}
-              target="_blank"
-              className="flex"
-            >
-              <Image src={whatsapp} alt="whatsapp" width={280} />
-              
-            </Link>
-          </div>
-        </div>
+        
       </div>
       <div className="overflow-hidden rounded-[3rem]">
         <Image src={heroImage} alt="HeroImage" height={400} />
