@@ -823,6 +823,12 @@ video {
 .mt-\[7rem\]{
   margin-top: 7rem;
 }
+.me-4{
+  margin-inline-end: 1rem;
+}
+.mr-4{
+  margin-right: 1rem;
+}
 .block{
   display: block;
 }
@@ -852,6 +858,12 @@ video {
 }
 .h-full{
   height: 100%;
+}
+.h-\[00px\]{
+  height: 00px;
+}
+.h-\[400px\]{
+  height: 400px;
 }
 .min-h-screen{
   min-height: 100vh;
@@ -915,6 +927,12 @@ video {
 }
 .gap-\[10px\]{
   gap: 10px;
+}
+.gap-\[\]{
+  gap: ;
+}
+.gap-\[2rem\]{
+  gap: 2rem;
 }
 .gap-x-3{
   -moz-column-gap: 0.75rem;

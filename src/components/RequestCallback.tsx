@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const RequestCallback = () => {
   return (
-    <div className={`request-callback-container frame h-[600px] md:h-[250px] bg-gradient-to-r from-red-500 to-yellow-500 mx-7 rounded-tr-[5rem]   flex justify-between items-center flex-col  mb-[2rem] md:flex-row  `}>
+    <div className={`request-callback-container frame h-[400px] md:h-[250px] bg-gradient-to-r from-red-500 to-yellow-500 mx-7 rounded-tr-[5rem]   flex justify-between items-center flex-col  mb-[2rem] md:flex-row `}>
       <div className="lg:ml-[5rem]">
         <Image src={phone} alt="phone" height={200}/>
       </div>
