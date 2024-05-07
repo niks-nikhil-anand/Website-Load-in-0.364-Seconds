@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import Floating from "@/components/FloatingWhatsapp";
 
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
         <meta content="width=device-width, initial-scale=0" name="viewport" />
        <body className="min-h-screen bg-black-100 font-poppins">
+        <Floating/>
        <SpeedInsights/>
         <Navbar/>
         {children}
